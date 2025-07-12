@@ -62,6 +62,7 @@ function displayRecipes(recipes){
       showMessage("No recipes to display");
       return;
    }
+      resultsGrid.innerHTML="";
    recipes.forEach((recipe)=>{
        const recipeDiv=document.createElement("div");
        recipeDiv.classList.add("recipe-item");
